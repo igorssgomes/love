@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/imagens/tay.png);
+  background-size: 10%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.painel {
+  display: flex;
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  background: white;
+}
+
+.gif-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.gifs {
+  display: flex;
+  height: 120px;
+  width: 170px;
+}
+
+.main-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-gif {
+  height: 100%;
+  width: 300px;
+}
+
+.conteudo1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.title1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divButtons {
+  display: flex;
+  width: 100%;
+}
+
+#sim {
+  height: 40px;
+  width: 60px;
+  background-color: pink;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid pink;
+  border-radius: 10px;
+  color: white;
+  margin-left: 180px;
+}
+
+#nao {
+  position: absolute;
+  height: 40px;
+  width: 60px;
+  background-color: pink;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid pink;
+  border-radius: 10px;
+  color: white;
+  margin-left: 270px;
+}
+
+.nao {
+  height: 40px;
+  width: 60px;
+  background-color: pink;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid pink;
+  border-radius: 10px;
+  color: white;
+  margin-left: 10px;
+}
