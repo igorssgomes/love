@@ -60,8 +60,11 @@ const App: React.FC = () => {
 
   const exibirVideo = () => {
     return (
-      <video width="500px" height="500px" controls className="video">
-        <source src="/videos/op.mp4" type="video/mp4" />
+      <video width="500px" height="500px" controls>
+        <source
+          src="https://github.com/iigorfelipe/portfolio-ts/assets/87145566/ee5caa30-a985-4d90-a49d-e8a102231687"
+          type="video/mp4"
+        />
       </video>
     );
   };
